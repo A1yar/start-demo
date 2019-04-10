@@ -14,6 +14,7 @@ export default new Router({
       name: 'Index',
       component: Index
     },
-    ...Dome                                   // dome类
+    ...Dome                                  // dome类
+    
   ]
 })

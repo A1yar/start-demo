@@ -11,6 +11,11 @@ import './assets/css/common.css'               // 公共CSS
 import $utils from '@assets/utils'             // 公共自定义钩子函数
 import * as $api from '@assets/api'              // api请求函数
 
+import Vant from 'vant'
+import 'vant/lib/index.css'
+
+Vue.use(Vant)
+
 Vue.prototype.$utils = $utils
 Vue.prototype.$api = $api
 
